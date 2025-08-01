@@ -1,5 +1,7 @@
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -23,18 +25,31 @@ body {
 }
 
 /* 6. Improve media defaults */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
 /* 7. Inherit fonts for form controls */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* 8. Avoid text overflows */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
@@ -42,42 +57,44 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   text-wrap: pretty;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-wrap: balance;
 }
 
 /*
   10. Create a root stacking context
 */
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
-.header{
-    display: flex;
-    justify-content:center;
-    gap: 3rem;
-    background-color: rgb(173, 116, 10);
-    height: 5rem;
-    align-items: center;
-
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: rgb(173, 116, 10);
+  height: 5rem;
+  align-items: center;
 }
-.homeButton{
-    background-color: rgb(161, 150, 99);
-    padding: 0.4rem 1rem;
-    margin: 0;
-    border-radius: 30px;
-    border: none;
-
+.homeButton {
+  background-color: rgb(161, 150, 99);
+  padding: 0.4rem 1rem;
+  margin: 0;
+  border-radius: 30px;
+  border: none;
 }
-body{
+body {
   background-color: grey;
   display: flex;
   justify-content: center;
 }
-.borders{
+.borders {
   width: 80%;
   background-color: aliceblue;
   height: 100vh;
-
 }
-
