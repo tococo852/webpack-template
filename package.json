@@ -22,6 +22,8 @@
     "build": "webpack --config webpack.prod.js",
     "deploy": "gh-pages -d dist",
     "pretty": "prettier . --write",
-    "test": "jest "
+    "test": "jest ",
+    "watch": "jest --watch *.js"
+
   }
 }
